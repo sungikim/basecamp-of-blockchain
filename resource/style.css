@@ -224,16 +224,6 @@ body {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #fff 100%);
     position: relative;
 }
-#lnb:after {
-    content: "";
-    position: absolute;
-    bottom: -10px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: #fff;
-    transform: skewY(-3deg);
-}
         .lnb-history {
             padding-top:14px;
         }       
