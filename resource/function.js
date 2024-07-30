@@ -172,13 +172,13 @@ function showPopup(term) {
         `;
         $('body').append(popup);
     } else {
-        const popupContent = `
-            ${Math.random() < 0.1 ? "<div class='popup-content support'><a href='https://ko-fi.com/lazytim' target='_blank'>Is this feature helpful to you? ☕️ Buy a Coffee for lazyTim</a></div>" : ""}
-            <div class="popup-content">
-                ${termContent}
-            </div>
-        `;
-        popup.append(popupContent);
+        // const popupContent = `
+        //     ${Math.random() < 0.1 ? "<div class='popup-content support'><a href='https://ko-fi.com/lazytim' target='_blank'>Is this feature helpful to you? ☕️ Buy a Coffee for lazyTim</a></div>" : ""}
+        //     <div class="popup-content">
+        //         ${termContent}
+        //     </div>
+        // `;
+        // popup.append(popupContent);
         popup.animate({ scrollTop: popup.prop("scrollHeight") }, 300);
         popup.css('justify-content', 'flex-start');
     }
